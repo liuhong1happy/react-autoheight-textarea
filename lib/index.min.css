@@ -1,0 +1,42 @@
+.react-autoheight-textarea {
+  margin: 16px 24px;
+}
+.react-autoheight-textarea .input-control {
+  width: 100%;
+  background-color: transparent;
+  color: #1B2733;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}
+.react-autoheight-textarea .input-control .textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  line-height: 22px;
+  padding: 5px 0px 5px 8px;
+  word-break: break-all;
+}
+.react-autoheight-textarea .input-control .placeholder {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  color: #637282;
+  font-weight: 400px;
+  line-height: 22px;
+}
+.react-autoheight-textarea .input-control .placeholder.hidden {
+  display: none;
+}
+.react-autoheight-textarea .max-number {
+  font-size: 12px;
+  font-weight: 400;
+  color: #637282;
+  line-height: 20px;
+  text-align: right;
+}
+.react-autoheight-textarea .max-number.red .can-red {
+  color: #E43550;
+}

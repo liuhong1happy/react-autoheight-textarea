@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames'
 
-import './style.less'
-
-class Editor extends Component {
+class TextArea extends Component {
   state = {
     focus: false,
     content: "",
@@ -66,7 +64,7 @@ class Editor extends Component {
     const { focus, contentLength } = this.state;
 
     return (
-      <div className="blog-publish-modal-editor">
+      <div className="react-autoheight-textarea">
         <div className={classNames("input-control", { focus })} onClick={()=> this.textArea && this.textArea.focus()}>
           <div 
             className="textarea"
@@ -90,4 +88,4 @@ class Editor extends Component {
   }
 }
 
-export default Editor;
+export default TextArea;
